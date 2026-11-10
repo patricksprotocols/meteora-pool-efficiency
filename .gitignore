@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.idea/
+history/
+meteora_data.json
