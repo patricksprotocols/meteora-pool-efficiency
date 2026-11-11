@@ -48,8 +48,12 @@ failed because I called the GeckoTerminal website instead of the API.
 
 ## Findings from 10 November 2026
 
+## Findings from 10 November 2026
+
 - 25 of 60 pools passed the \$100,000 filter. MUSK / USDC ranked first at 15.43x
   with about \$106,800 of liquidity, just above the cutoff.
 - The largest pools had low ratios. ANTFUN / USDT has about \$14.7M of liquidity
   and a 0.09x ratio.
-- The same pair can be
+- The same pair can be very different pools. One HYPE / SOL pool shows 10.74x
+  and another 0.62x. I don't yet know why.
+- This is one snapshot, so it shows no trend yet.
