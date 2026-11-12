@@ -4,9 +4,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
 DATA_FILE = BASE_DIR / "meteora_data.json"
-
-# USD. Below this, a handful of trades is enough to distort the ratio.
-MIN_LIQUIDITY = 100_000
+MIN_LIQUIDITY = 100000
 
 
 def load_pools(path):
@@ -15,10 +13,6 @@ def load_pools(path):
 
 
 def rank_by_efficiency(pools, min_liquidity=0):
-    """Rank pools by 24h volume / liquidity, highest first.
-
-    Pools with no liquidity, or less than min_liquidity, are left out.
-    """
     ranked = []
     for pool in pools:
         liquidity = pool.get("liquidity", 0)
