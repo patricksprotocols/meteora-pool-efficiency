@@ -70,7 +70,7 @@ failed because I called the GeckoTerminal website instead of the API.
   ranking. I don't know yet why they trade so much on so little liquidity.
 
 
-- ![Median efficiency by pool size](band_medians.png)
+![Median efficiency by pool size](band_medians.png)
 - One snapshot from 14 November 2026. n is the number of pools in each band.
 
 
