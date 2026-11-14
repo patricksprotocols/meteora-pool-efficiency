@@ -23,10 +23,19 @@ def efficiency_by_band(pools):
     return pools.groupby("band", observed=True)["efficiency"].agg(["count", "median", "mean"])
 
 
+def top_efficiency(pools, n=5):
+    """The n pools with the highest volume / liquidity."""
+    pools = pools[pools["liquidity"] > 0].copy()
+    pools["efficiency"] = pools["volume_24h"] / pools["liquidity"]
+    return pools.nlargest(n, "efficiency")[["name", "liquidity", "volume_24h", "efficiency"]]
+
+
 def main():
     pools = load_pools(DATA_FILE)
     summary = efficiency_by_band(pools)
     print(summary.round(2))
+    print(top_efficiency(pools))
+    print(pools[pools["liquidity"] > 2_000_000][["name", "liquidity", "volume_24h"]])
 
 
 if __name__ == "__main__":
