@@ -35,16 +35,16 @@ def top_efficiency(pools, n=5):
 def plot_band_medians(summary, out_path):
     fig, ax = plt.subplots(figsize=(7, 4))
     bars = ax.bar(summary.index.astype(str), summary["median"], color="#4C72B0")
-    for bar, count in zip(bars, summary["count"]):
+    for bar, count, median in zip(bars, summary["count"], summary["median"]):
         ax.text(
             bar.get_x() + bar.get_width() / 2,
             bar.get_height(),
-            f"n={count}",
+            f"{median:.2f}x\nn={count}",
             ha="center",
             va="bottom",
             fontsize=9,
         )
-    ax.set_title("Median volume / liquidity by pool size")
+    ax.set_title("Median volume / liquidity by pool size (14 Nov 2026)")
     ax.set_xlabel("Pool liquidity (USD)")
     ax.set_ylabel("Median volume / liquidity (x)")
     ax.spines[["top", "right"]].set_visible(False)

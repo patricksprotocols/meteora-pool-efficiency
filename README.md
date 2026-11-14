@@ -62,13 +62,17 @@ failed because I called the GeckoTerminal website instead of the API.
   and above \$500k it was under 1x. A few pools under \$100k are extreme, so the
   mean (115.24x) is far above the median there. That's part of why I use a
   \$100,000 cutoff. The two biggest bands have just 5 and 3 pools, so they're too
-  small to trust.
-- - I wondered why the mean for pools under \$100k was 115x when the median was
+  small to trust. 
+- I wondered why the mean for pools under \$100k was 115x when the median was
   only 18x. Five pools were behind it: each had under \$600 of liquidity but
   \$178k to \$450k of daily volume, which gives ratios between 308x and 780x.
   They're all well below my \$100,000 cutoff, so they never show up in the
   ranking. I don't know yet why they trade so much on so little liquidity.
+
+
 - ![Median efficiency by pool size](band_medians.png)
+- One snapshot from 14 November 2026. n is the number of pools in each band.
+
 
 ## Limitations and next steps
 
