@@ -68,6 +68,7 @@ failed because I called the GeckoTerminal website instead of the API.
   \$178k to \$450k of daily volume, which gives ratios between 308x and 780x.
   They're all well below my \$100,000 cutoff, so they never show up in the
   ranking. I don't know yet why they trade so much on so little liquidity.
+- ![Median efficiency by pool size](band_medians.png)
 
 ## Limitations and next steps
 

@@ -1,9 +1,11 @@
 import json
 from pathlib import Path
+import matplotlib.pyplot as plt
 
 import pandas as pd
 
 DATA_FILE = Path(__file__).parent / "meteora_data.json"
+CHART_FILE = Path(__file__).parent / "band_medians.png"
 
 # Liquidity bands in USD, smallest to largest.
 BAND_EDGES = [0, 100_000, 500_000, 2_000_000, float("inf")]
@@ -30,12 +32,34 @@ def top_efficiency(pools, n=5):
     return pools.nlargest(n, "efficiency")[["name", "liquidity", "volume_24h", "efficiency"]]
 
 
+def plot_band_medians(summary, out_path):
+    fig, ax = plt.subplots(figsize=(7, 4))
+    bars = ax.bar(summary.index.astype(str), summary["median"], color="#4C72B0")
+    for bar, count in zip(bars, summary["count"]):
+        ax.text(
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height(),
+            f"n={count}",
+            ha="center",
+            va="bottom",
+            fontsize=9,
+        )
+    ax.set_title("Median volume / liquidity by pool size")
+    ax.set_xlabel("Pool liquidity (USD)")
+    ax.set_ylabel("Median volume / liquidity (x)")
+    ax.spines[["top", "right"]].set_visible(False)
+    fig.tight_layout()
+    fig.savefig(out_path, dpi=150)
+
+
 def main():
     pools = load_pools(DATA_FILE)
     summary = efficiency_by_band(pools)
     print(summary.round(2))
     print(top_efficiency(pools))
     print(pools[pools["liquidity"] > 2_000_000][["name", "liquidity", "volume_24h"]])
+    plot_band_medians(summary, CHART_FILE)
+    print(f"Chart saved: {CHART_FILE.name}")
 
 
 if __name__ == "__main__":
