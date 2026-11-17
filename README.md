@@ -46,7 +46,9 @@ that every pool returned is a DLMM pool, so I describe them as Meteora pools.
 An early version ran on handwritten sample data. My first live attempt
 failed because I called the GeckoTerminal website instead of the API.
 
-## Findings from 10 November 2026
+## What I found
+
+### Findings from 10th November 2026
 
 - 25 of 60 pools passed the \$100,000 filter. MUSK / USDC ranked first at 15.43x
   with about \$106,800 of liquidity, just above the cutoff.
@@ -57,7 +59,7 @@ failed because I called the GeckoTerminal website instead of the API.
 - This is one snapshot, so it shows no trend yet.
 
 
-## Findings from 14 November 2026
+### Pool size and efficiency, 14th November 2026
 - Efficiency dropped as pools got bigger. Under \$100k the median was 18.09x,
   and above \$500k it was under 1x. A few pools under \$100k are extreme, so the
   mean (115.24x) is far above the median there. That's part of why I use a
@@ -74,13 +76,38 @@ failed because I called the GeckoTerminal website instead of the API.
 - One snapshot from 14 November 2026. n is the number of pools in each band.
 
 
-## Limitations and next steps
+### Efficiency over time, 9 to 16 November 2026
 
-- I only have a few days of snapshots, so the trends don't mean much yet.
-- If a pool's liquidity moves across the cutoff between days, it drops out of the trend.
-- There's no fee, impermanent loss or reward data yet.
-- Next, I want to load the data into pandas, see how pool size relates to
-  efficiency, and add fee yield.
+![Efficiency by day](efficiency_over_time.png)
+
+One reading per day for the five pools I have readings for on the most days.
+
+- STONK / SOL fell from about 4.5x to about 1.2x on the first day, then
+  went down to about 0.6x.
+- HYPE / SOL (6oQ9...6MK8) was the highest line on most days and peaked near
+  17.7x on 15 November.
+- WBTC / SOL started near 16x, then settled between about 7x and 10x.
+- SPCX / SOL jumped to about 12.8x on 12 November and fell back the next day.
+  That's a single day, so I'm not reading much into it.
+
+## What I don't know yet
+
+- I only have about a week of data, so nothing here is much of a proper trend.
+- The volume figure covers a rolling 24 hours, and I take snapshots at
+  different times of day, so day-to-day moves are a bit noisy.
+- A pool drops out of the trend and the chart on any day its liquidity is under
+  \$100,000.
+- I can't tell yet whether a move comes from volume changing or liquidity
+  changing.
+- There's no fee, impermanent loss or reward data, so none of this says what a
+  liquidity provider would actually earn.
+
+## Next
+
+- Save volume and liquidity next to efficiency, and plot them for STONK / SOL
+  to see what's behind its fall.
+- Add fee yield.
+- Learn SQL with DuckDB and query the history with it.
 
 ## Tests
 
