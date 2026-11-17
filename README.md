@@ -97,8 +97,7 @@ One reading per day for the five pools I have readings for on the most days.
   different times of day, so day-to-day moves are a bit noisy.
 - A pool drops out of the trend and the chart on any day its liquidity is under
   \$100,000.
-- I can't tell yet whether a move comes from volume changing or liquidity
-  changing.
+![STONK / SOL breakdown](pool_breakdown.png)
 - There's no fee, impermanent loss or reward data, so none of this says what a
   liquidity provider would actually earn.
 
