@@ -89,6 +89,25 @@ One reading per day for the five pools I have readings for on the most days.
 - WBTC / SOL started near 16x, then settled between about 7x and 10x.
 - SPCX / SOL jumped to about 12.8x on 12 November and fell back the next day.
   That's a single day, so I'm not reading much into it.
+- 
+### What's behind STONK / SOL's fall, 9 to 17 November 2026
+
+![STONK / SOL breakdown](pool_breakdown.png)
+
+The ratio is volume divided by liquidity, so it can fall because volume drops or
+because liquidity grows. I wanted to know which one happened to STONK / SOL, so
+I plotted both next to the ratio.
+
+| Measure | First | Latest | Change |
+|---|---|---|---|
+| 24h volume | \$9.43M | \$1.09M | -88.4% |
+| Liquidity | \$2.11M | \$1.88M | -10.7% |
+| Volume / liquidity | 4.48x | 0.58x | -87.1% |
+
+It was the volume. It fell by almost 90% while liquidity only moved about 11%,
+and in the opposite direction to what would explain the drop. I haven't worked
+out why the volume fell, and I haven't checked whether other pools behave the
+same way.
 
 ## What I don't know yet
 
@@ -97,7 +116,8 @@ One reading per day for the five pools I have readings for on the most days.
   different times of day, so day-to-day moves are a bit noisy.
 - A pool drops out of the trend and the chart on any day its liquidity is under
   \$100,000.
-![STONK / SOL breakdown](pool_breakdown.png)
+- STONK / SOL's fall came from volume, but I haven't checked other pools, and I
+  don't know why its volume fell.
 - There's no fee, impermanent loss or reward data, so none of this says what a
   liquidity provider would actually earn.
 

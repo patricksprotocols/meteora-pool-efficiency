@@ -34,3 +34,9 @@ def test_trend_change_and_order():
     rows = trend_rows(build_timelines(snapshots))
     assert [r["address"] for r in rows] == ["up", "down"]
     assert rows[0]["change"] == pytest.approx(2.0)
+
+def test_timeline_keeps_volume_and_liquidity():
+    snapshots = [(datetime(2026, 11, 9), [pool("addr1", 200_000, 100_000)])]
+    point = build_timelines(snapshots)["addr1"][0]
+    assert point["volume"] == 200_000
+    assert point["liquidity"] == 100_000

@@ -40,6 +40,8 @@ def build_timelines(snapshots, min_liquidity=MIN_LIQUIDITY):
                         "time": captured_at,
                         "name": pool["name"],
                         "efficiency": pool["efficiency"],
+                        "volume": pool["volume_24h"],
+                        "liquidity": pool["liquidity"],
                     }
                 )
     return timelines
