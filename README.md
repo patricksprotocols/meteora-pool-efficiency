@@ -12,14 +12,30 @@ how the ratio changes from day to day.
   ranked table.
 - `trend.py` reads every snapshot in `history/` and compares each pool's
   efficiency over time, matching pools by address.
-- `history.py` holds the snapshot-copy function used by `fetch.py`.
+- `history.py` holds the snapshot-copy function used by `fetch.py`.- `analysis.py` uses pandas to group pools by size and compare their
+  efficiency. It saves `band_medians.png`.
+- `plot_trends.py` draws efficiency over time for five pools and saves
+  `efficiency_over_time.png`.
+- `plot_pool.py` splits one pool's ratio into volume and liquidity and saves
+  `pool_breakdown.png`.
+- `.github/workflows/daily-fetch.yml` it is a GitHub Actions workflow. It runs
+  `fetch.py` every day at 12:00 UTC (1pm in Nigeria) and saves the new snapshot
+  into `history/`.
+
+At first, I ran the `fetch.py` from my laptop with Windows Task Scheduler. It missed
+a day when I had no power or bad network, and the snapshots came at all sorts of
+times. I've moved it to GitHub, so collecting the data doesn't depend on my
+laptop anymore.
 
 ## Run it
 
-    pip install requests pytest
+    pip install requests pandas matplotlib pytest
     python fetch.py
     python main.py
     python trend.py
+    python analysis.py
+    python plot_trends.py
+    python plot_pool.py
     pytest
 
 `trend.py` needs at least two snapshots that contain the same pool, so run
@@ -45,6 +61,10 @@ Data comes from the GeckoTerminal API (DEX id `meteora`). I have not confirmed
 that every pool returned is a DLMM pool, so I describe them as Meteora pools.
 An early version ran on handwritten sample data. My first live attempt
 failed because I called the GeckoTerminal website instead of the API.
+`fetch.py` waits up to like 30 seconds for each page and tries again up to three
+times if the connection gets timed out. I added that after getting a read timeout.
+Snapshot filenames use UTC. The ones my laptop made before that are named in
+Nigerian time, which is an hour ahead.
 
 ## What I found
 
@@ -111,15 +131,7 @@ same way.
 
 ## What I don't know yet
 
-- I only have about a week of data, so nothing here is much of a proper trend.
-- The volume figure covers a rolling 24 hours, and I take snapshots at
-  different times of day, so day-to-day moves are a bit noisy.
-- A pool drops out of the trend and the chart on any day its liquidity is under
-  \$100,000.
-- STONK / SOL's fall came from volume, but I haven't checked other pools, and I
-  don't know why its volume fell.
-- There's no fee, impermanent loss or reward data, so none of this says what a
-  liquidity provider would actually earn.
+I only have a couple of weeks of data, so nothing here is much of a proper trend.
 
 ## Next
 
@@ -130,8 +142,8 @@ same way.
 
 ## Tests
 
-Run `pytest` to run all 11 tests. They cover the ranking, the liquidity filter,
-the snapshot copy and the trend logic.
+Run `pytest`. The tests cover the ranking, the liquidity filter, the snapshot
+copy, the trend logic and the helper functions behind the charts.
 
 ## Note on tools
 
