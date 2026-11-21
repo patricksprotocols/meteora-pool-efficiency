@@ -1,0 +1,362 @@
+[
+  {
+    "name": "wNEAR / USDC",
+    "address": "FhdW3Y6Ea6hXKbkGkt5YSAVtDNd5qJ8USevMaPyEr45S",
+    "volume_24h": 4303629.49978014,
+    "liquidity": 1168834.8679
+  },
+  {
+    "name": "SOL / USDC",
+    "address": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+    "volume_24h": 1965764.08878667,
+    "liquidity": 211254.4168
+  },
+  {
+    "name": "TTWO / USDC",
+    "address": "8nUqqRckfRdFh5YqiEoZtfPoZWuDfWQWJstuWNT5hHf2",
+    "volume_24h": 2222170.72280683,
+    "liquidity": 11317.9153
+  },
+  {
+    "name": "USDC / SOL",
+    "address": "GMgh4NtWrGaUf1RR2kcXD7LY1jou1qFAuSsQeKp5ow4a",
+    "volume_24h": 29926.9444902554,
+    "liquidity": 3636.5733
+  },
+  {
+    "name": "BTC / SOL",
+    "address": "BBNe6tSmvsKSc58CEHpRnH1PnkWhekTryKascaCUtDuJ",
+    "volume_24h": 410119.238612676,
+    "liquidity": 16348.9806
+  },
+  {
+    "name": "HYPE / SOL",
+    "address": "6oQ9wVex4mKZti2GsGCfD8FWTMMC9PLQkztRU5cd6MK8",
+    "volume_24h": 8609233.43770947,
+    "liquidity": 678549.1043
+  },
+  {
+    "name": "FLOAT / SOL",
+    "address": "4ju8phDxUU4WSJP1wWPLZ8R2KRCqwP3VZFXAqhT9cfVy",
+    "volume_24h": 1985937.4621892,
+    "liquidity": 186364.1084
+  },
+  {
+    "name": "ANTHRP / USDC",
+    "address": "AenFPkN2wy3ap19sZrBcdHEqcHjdiu2wWAmDRy66nLYn",
+    "volume_24h": 144541.444151922,
+    "liquidity": 3322.8514
+  },
+  {
+    "name": "GTA6 / SOL",
+    "address": "5AFbwVSQPJf4cgEjq4TajZYyPYUvYktrRN3SahNrPnmv",
+    "volume_24h": 974920.114424409,
+    "liquidity": 77984.4175
+  },
+  {
+    "name": "ANTHRP / USDC",
+    "address": "9thgWVMJUKiiotrVmzhEy1MWPyvkNsUSwKbp8ZFsuhA2",
+    "volume_24h": 833949.954679878,
+    "liquidity": 30162.1383
+  },
+  {
+    "name": "ANTHRP / USDC",
+    "address": "2ZFSKYNYsgxmLDiKd9bFPh17fV7c9bdGkGYF8AEMhmpq",
+    "volume_24h": 1229820.32145521,
+    "liquidity": 50319.6749
+  },
+  {
+    "name": "wNEAR / SOL",
+    "address": "CFuhvJfwanr8DfLhaMf5nLGsrS33HDkRGLWjAVRAKqvz",
+    "volume_24h": 601479.686178796,
+    "liquidity": 20440.0307
+  },
+  {
+    "name": "SOL / USDC",
+    "address": "3msVd34R5KxonDzyNSV5nT19UtUeJ2RF1NaQhvVPNLxL",
+    "volume_24h": 50717.0598869952,
+    "liquidity": 13278.1047
+  },
+  {
+    "name": "USDC / SOL",
+    "address": "HRYEjwdo3bZ1TpXKWKcezqiwSV2Ywuh4LxMa2PzoCnG6",
+    "volume_24h": 983525.185080621,
+    "liquidity": 68880.3047
+  },
+  {
+    "name": "PUSSY / SOL",
+    "address": "BsD4MZWkY9dVw4sDJmGwLFiMRbLS8BE9usmnKgZ1Etvj",
+    "volume_24h": 810279.072193379,
+    "liquidity": 16137.294
+  },
+  {
+    "name": "NVDA / NVDAx",
+    "address": "Aq7nhS8pDPRvPA2uWotwyk79aG8Hfegf5CdA3iXABxAR",
+    "volume_24h": 1280384.88912036,
+    "liquidity": 30307.0404
+  },
+  {
+    "name": "SPCX / SOL",
+    "address": "3h9GhSUzozu2eRQ9MCLCeHWYshywm4mqbzPtz2h1zGMF",
+    "volume_24h": 969310.964163293,
+    "liquidity": 188705.3634
+  },
+  {
+    "name": "PUSSY / USDC",
+    "address": "FMxrFygUuLfiT2RbvB4sNyYh7AEw136szzg38WYBwKw6",
+    "volume_24h": 427546.954851841,
+    "liquidity": 1119.6075
+  },
+  {
+    "name": "NVDAx / USDC",
+    "address": "8Xx3VeN92DsZksHs2nXMiJUcR5JBofqmbXqacoeUTj2g",
+    "volume_24h": 152852.533628853,
+    "liquidity": 11488.4147
+  },
+  {
+    "name": "WBTC / SOL",
+    "address": "4kdxjt8pKEW4qV4ji4HANixwswDJw3Egn8L4x2BEWQqT",
+    "volume_24h": 1754899.80769412,
+    "liquidity": 215964.7246
+  },
+  {
+    "name": "SOL / USDC",
+    "address": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+    "volume_24h": 14369972.6218868,
+    "liquidity": 3797825.761
+  },
+  {
+    "name": "MET / SOL",
+    "address": "GYqytuXSiX3GaPuCkLMY4jeRR3mAtyAuQqhD32d45g5y",
+    "volume_24h": 303198.51233311,
+    "liquidity": 46656.121
+  },
+  {
+    "name": "STONK / SOL",
+    "address": "zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
+    "volume_24h": 2894682.19376128,
+    "liquidity": 2332532.0973
+  },
+  {
+    "name": "BTC / SOL",
+    "address": "2tFYCTqYJ2pyrb7CeA824o2Ybq3jq7agvr3Qpv2uVDmL",
+    "volume_24h": 662860.528808607,
+    "liquidity": 118080.6171
+  },
+  {
+    "name": "SKR / SOL",
+    "address": "BCv5Ggg5563AYfkrErdXok2hKfjgUNtQ1A4yKuNbTjQ9",
+    "volume_24h": 8345.8986508731,
+    "liquidity": 5544.4226
+  },
+  {
+    "name": "wNEAR / SOL",
+    "address": "B9kcGT9QgjjVwTbyurvhvNiEFi6aYxupXJBFbvdDRiL9",
+    "volume_24h": 523623.519836722,
+    "liquidity": 184684.4056
+  },
+  {
+    "name": "NVDA / SOL",
+    "address": "8hZLNkowjQd1TBcWs9MSVjn7YB8M5DDh9NEg4HRef9nq",
+    "volume_24h": 807477.843222154,
+    "liquidity": 64471.5898
+  },
+  {
+    "name": "ANTHRP / SOL",
+    "address": "Bnoev1Gp1o247d7zTwSbznRwqjkRmbrx3R6Qt4P16YbQ",
+    "volume_24h": 429327.914361611,
+    "liquidity": 34046.2893
+  },
+  {
+    "name": "TTWO / SOL",
+    "address": "7qZPiJ2Lvwh9DV9gUBH2EwConBE3RUrAvGRjpN8vTjtT",
+    "volume_24h": 1187354.89392668,
+    "liquidity": 46893.1716
+  },
+  {
+    "name": "CTM / SOL",
+    "address": "JCLQiP7t1uxHiZHPotpUoVvPFFE48UxpkXHsVJJJvUrJ",
+    "volume_24h": 254756.41217013,
+    "liquidity": 2068822.863
+  },
+  {
+    "name": "tSpaceX / USDC",
+    "address": "8obGpjiUu7QTJHK58YHCoz5HxobmrVP2x5zpMZu3c4BT",
+    "volume_24h": 549819.637990561,
+    "liquidity": 529301.2777
+  },
+  {
+    "name": "ANTFUN / USDT",
+    "address": "54Vp27uLaw4wNLo5n7r4fcC6zLamoQc28xBARjss4EUJ",
+    "volume_24h": 1211459.09599155,
+    "liquidity": 14761616.601
+  },
+  {
+    "name": "FO / USDT",
+    "address": "EXXfbVutbuexDZtPw8pkSvWxLFoUMBHd544CAGkmtPZm",
+    "volume_24h": 36064.3438587947,
+    "liquidity": 625542.9172
+  },
+  {
+    "name": "POLYMARKET / USDC",
+    "address": "gPchZYUR4prBpYr4BQDZdB4fwYxWSh8h2rY83CQxN61",
+    "volume_24h": 88713.5548267958,
+    "liquidity": 4558.8882
+  },
+  {
+    "name": "TRUMP / USDC",
+    "address": "3C5YE97HADPDxZehYq9Cis8AXr9aNyrUsczKzE1nDbW9",
+    "volume_24h": 3409124.24742264,
+    "liquidity": 5380531.9439
+  },
+  {
+    "name": "DOGE / SOL",
+    "address": "4n9rkpKkPUGFquBh6UXqNYbaCNyBcFq9VwNbutwGX5d6",
+    "volume_24h": 583545.770901244,
+    "liquidity": 135993.2952
+  },
+  {
+    "name": "JLP / SOL",
+    "address": "G7ixPyiyNeggVf1VanSetFMNbVuVCPtimJmd9axfQqng",
+    "volume_24h": 11874.1651292709,
+    "liquidity": 12015.1214
+  },
+  {
+    "name": "USD1 / SOL",
+    "address": "4zQTE5nVDtykQavfRh2u5Fy6c9G2mzvX5n1qqAzAoswM",
+    "volume_24h": 78433.3497192661,
+    "liquidity": 2000.0165
+  },
+  {
+    "name": "JUP / SOL",
+    "address": "Eio6hAieGTAmKgfvbEfbnXke6o5kfEd74tqHm2Z9SFjf",
+    "volume_24h": 61543.9020495536,
+    "liquidity": 29298.9495
+  },
+  {
+    "name": "wXMR / SOL",
+    "address": "BFKBQT4yFZPtzyttHQayNmjDJYduvFaPXuytMgnaqexV",
+    "volume_24h": 546370.501692939,
+    "liquidity": 55952.5703
+  },
+  {
+    "name": "tKalshi / USDC",
+    "address": "CGYxcqLiJEoYapZrU7uVGBGfEE15pXDV4mB9AQ8Fsuff",
+    "volume_24h": 238436.488471114,
+    "liquidity": 730426.4779
+  },
+  {
+    "name": "CARDS / SOL",
+    "address": "DLZhgwhLVCQWucBVSmY7QwKgcDCQaVvNwQ3DnAoatYzy",
+    "volume_24h": 946289.086757087,
+    "liquidity": 248620.8406
+  },
+  {
+    "name": "PUSSY / SOL",
+    "address": "HcyYBrZVFDDVBLtLxL5C1HDJND1p86BoNA6m7MjBKE3p",
+    "volume_24h": 884394.0013995,
+    "liquidity": 52912.9283
+  },
+  {
+    "name": "MUSK / USDC",
+    "address": "GeUkx21Vc6yg63YZ1BdXY95ZATm9LeBYCgSN1uJ3o18S",
+    "volume_24h": 1647396.0868514,
+    "liquidity": 106786.9697
+  },
+  {
+    "name": "CARDS / SOL",
+    "address": "8Q3Uaq5NzckSX1UWuz4TsbyU4fcXcczvhbBqJiyV8op6",
+    "volume_24h": 262231.011668648,
+    "liquidity": 30343.529
+  },
+  {
+    "name": "PUMP / SOL",
+    "address": "HbjYfcWZBjCBYTJpZkLGxqArVmZVu3mQcRudb6Wg1sVh",
+    "volume_24h": 654363.061581791,
+    "liquidity": 1704189.2796
+  },
+  {
+    "name": "DJT / SOL",
+    "address": "8AW7UaDsPZCshkAXVn2uGvLixZHZy9dHgKc43rVHnCPt",
+    "volume_24h": 547086.993575067,
+    "liquidity": 29186.8892
+  },
+  {
+    "name": "Pepetide / SOL",
+    "address": "2uA94Y3X9dwDduojoj2NRcyZQaYtcoSsHZ4y1UX5P8Rs",
+    "volume_24h": 430968.655464057,
+    "liquidity": 39882.3314
+  },
+  {
+    "name": "NVDAx / SOL",
+    "address": "FCn5zw4gAcfRpQgst5ThFuzBGXbbJ6RocVErgC4vJ9j1",
+    "volume_24h": 861061.72287876,
+    "liquidity": 144765.533
+  },
+  {
+    "name": "TTWO / USDC",
+    "address": "F1mbBZYKXGFx5nraY3cK4RgNR5EuShntQ8xDKDD5HY1z",
+    "volume_24h": 335503.26646034,
+    "liquidity": 13925.4917
+  },
+  {
+    "name": "AICoin / SOL",
+    "address": "8e9tSQUqpwGpM4FLN6EKuzsD7G596oPY9kh35DiV2Li",
+    "volume_24h": 216391.081350856,
+    "liquidity": 906.9175
+  },
+  {
+    "name": "FAIR / SOL",
+    "address": "3zXUn6XwCUCJQ2rjetaQFARRBaqeTnitGgeYukxWDMqS",
+    "volume_24h": 157495.544651618,
+    "liquidity": 7439.2525
+  },
+  {
+    "name": "WBTC / USDC",
+    "address": "5NQTw1WqVEt6wP1LmohsrYDyJp2NDipdv6eULVNByXMb",
+    "volume_24h": 22946.3711493289,
+    "liquidity": 101389.3259
+  },
+  {
+    "name": "Bonk / USDC",
+    "address": "31p1hptjhFo6ZD8oBqkfutNXQKGGPyi7YcEAfsyKW777",
+    "volume_24h": 317236.824698862,
+    "liquidity": 240919.2272
+  },
+  {
+    "name": "MCDx / SOL",
+    "address": "3AoTmvEZxkRWRbT9tmrKWeD2kBaGXUrYHuHdx79zKXSe",
+    "volume_24h": 225092.327569265,
+    "liquidity": 14431.8425
+  },
+  {
+    "name": "HYPE / SOL",
+    "address": "81GpCm4d13y8TozYtThabuSCLQN2o3bbrvDogXFPn8sA",
+    "volume_24h": 1508845.31650088,
+    "liquidity": 2362276.1616
+  },
+  {
+    "name": "CATE / SOL",
+    "address": "CcG3fyDZn6uXTV5p2TV9cceCA2YhE3bUMLeXGn6vZSNr",
+    "volume_24h": 210416.480253147,
+    "liquidity": 44617.1509
+  },
+  {
+    "name": "cbBTC / SOL",
+    "address": "HDhWhQCBrSh9xNWmNtsTi86eWj3yCoEiaRodjgNydo1b",
+    "volume_24h": 1194994.49195875,
+    "liquidity": 152256.7895
+  },
+  {
+    "name": "JUP / SOL",
+    "address": "7qt1qBnQ5CNNpMH1no6jYAzuyazP5QWXsUZB7dot5kga",
+    "volume_24h": 26051.2162778051,
+    "liquidity": 15020.1108
+  },
+  {
+    "name": "JLP / USDC",
+    "address": "5SHjDACvwtox5nY8kpWNYyaceWjtTG8C6L821D9Gtpjf",
+    "volume_24h": 218688.489896678,
+    "liquidity": 23319.6352
+  }
+]
