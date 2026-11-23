@@ -2,7 +2,7 @@ name: Daily fetch
 
 on:
   schedule:
-    - cron: "0 12 * * *"   # 12:00 UTC, which is 13:00 in Nigeria
+    - cron: "17 12 * * *"  # 12:17 UTC, which is 13:17 in Nigeria
   workflow_dispatch:        # lets me run it by hand from the Actions tab
 
 permissions:
