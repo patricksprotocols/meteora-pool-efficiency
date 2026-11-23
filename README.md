@@ -130,8 +130,10 @@ out why the volume fell, and I haven't checked whether other pools behave the
 same way.
 
 ## What I don't know yet
-
-I only have a couple of weeks of data, so nothing here is much of a proper trend.
+- I only have a couple of weeks of data, so nothing here is much of a proper trend.
+- I set the daily run for 1pm Nigeria time, but GitHub started the first one
+  around 6pm. The docs say scheduled runs can be delayed when it's busy, so I
+  can't promise a fixed time each day.
 
 ## Next
 
